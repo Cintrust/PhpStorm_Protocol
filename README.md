@@ -37,7 +37,7 @@ Installing on Mac
 Please follow instructions from the [this page](LinCastor.md) if the `PhpStorm Protocol.app` won't work as expected on your OS X version.
 PhpStorm 8+ (Mac version only) has built-in url handler and `phpstorm://open?file=%f&line=%l` url needs to be used instead (see https://youtrack.jetbrains.com/issue/IDEA-65879).
 
-1. clone this repository
+1. clone this repository [https://github.com/aik099/PhpStormProtocol](https://github.com/aik099/PhpStormProtocol)
 2. go to cloned folder
 3. copy folder ```PhpStorm Protocol.app``` to ```/Applications/``` folder
 4. delete cloned folder
@@ -49,7 +49,7 @@ Installing on Windows
 3. copy folder ```PhpStorm Protocol (Win)``` to ```C:\Program Files\``` folder
 4. double click on ```C:\Program Files\PhpStorm Protocol (Win)\run_editor.reg``` file
 5. agree to whatever Registry Editor asks you
-6. update settings at ```C:\Program Files\PhpStorm Protocol (Win)\run_editor.js``` file, because each PhpStorm version is installed into it's own sub-folder!
+6. copy ```phpstorm bin folder path```  to your system path eg ```C:\Program Files\JetBrains\PhpStorm 2019.2.5\bin```, note each PhpStorm version is installed into it's own sub-folder!
 7. delete cloned folder
 
 #### Working under another path?
